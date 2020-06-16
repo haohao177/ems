@@ -12,8 +12,10 @@ import java.util.List;
 public class goodsText {
     @Test
     public void asd(){
+        int a=6;
+        int b=7;
         ApplicationContext cxt = new ClassPathXmlApplicationContext("spring-code.xml");
-        System.out.println("开始运行");
+        System.out.println("开始运行"+a+b);
         GoodsDAO goodsDAO = (GoodsDAO) cxt.getBean("goodsDAO");
         List<Goods> goods = goodsDAO.selectGoods();
         for (Goods g:goods
