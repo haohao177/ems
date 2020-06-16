@@ -13,7 +13,7 @@ public class goodsText {
     @Test
     public void asd(){
         ApplicationContext cxt = new ClassPathXmlApplicationContext("spring-code.xml");
-        System.out.println("开始");
+        System.out.println("开始运行");
         GoodsDAO goodsDAO = (GoodsDAO) cxt.getBean("goodsDAO");
         List<Goods> goods = goodsDAO.selectGoods();
         for (Goods g:goods
