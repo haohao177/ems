@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bjgl_lht" />
+        <module name="lx" />
+        <module name="lx_lht" />
+        <module name="lyxx_lht" />
+        <module name="springMVC_day1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bjgl" target="1.7" />
+      <module name="bjgl_lht" target="1.7" />
+      <module name="ems111" target="1.7" />
+      <module name="lx" target="1.7" />
+      <module name="Spring_man" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
